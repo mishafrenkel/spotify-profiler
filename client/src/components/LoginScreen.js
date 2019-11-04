@@ -6,7 +6,7 @@ const { colors, fontSizes } = theme;
 const LOGIN_URI =
   process.env.NODE_ENV !== 'production'
     ? 'http://localhost:8888/login'
-    : 'https://infinite-fjord-31928.herokuapp.comlogin';
+    : 'https://infinite-fjord-31928.herokuapp.com/login';
 
 const Login = styled(Main)`
   ${mixins.flexCenter};
